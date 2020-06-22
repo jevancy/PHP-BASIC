@@ -1,18 +1,33 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
-$_test1_ = 3;
-$_test2_ = 6;
-
-if($_test1_ == $_test2_) {
-    echo "de vergelijking is waar!";
-}
-else {
-    echo "de vergelijking is niet waar!";
-}
-?>
+$test1 = 3;
+$test2 = 6;
  
-</body>
+    if($test1 == $test2) {
+            echo "gelijk";
+    }
+        else {
+            echo "niet gelijk bro" . "<br>";}
+ 
+    if($test1 != $test2) {
+            echo "ongelijk" . "<br>";
+    }
+        else {
+            echo "gelijk pik" . "<br>";}
+ 
+    if($test1 === $test2) {
+            echo "identiek" . "<br>";
+    }
+        else {
+            echo "niet identiek" . "<br>";}  
+ 
+    if($test1 > $test2) {
+            echo "groter dan..";
+    }
+        else {
+             echo "kleiner dan.." . "<br>";}    
+ 
+?>
+<br>
+<html>
+enzovoort snap m wel
 </html>
